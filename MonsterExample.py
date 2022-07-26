@@ -2,7 +2,6 @@
 # List of objets is very usefully when we are handling a lot of instances of the same type (enemies in games etc.)
 import random
 
-
 class Monster:
     def __init__(self, nRows, nCols, maxSpeed):
         self.nRows = nRows  # save away
