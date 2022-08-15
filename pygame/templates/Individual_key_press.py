@@ -69,8 +69,8 @@ while True:
 
     # 10. Draw all window elements
     # Drawing the player and the target
-    window.blit(player, (playerX, playerY))
     window.blit(target, (TARGET_X, TARGET_Y))
+    window.blit(player, (playerX, playerY))
 
     # 11. Update the window
     pygame.display.update()
